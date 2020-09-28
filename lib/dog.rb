@@ -20,7 +20,7 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.each do |x|
+    @@all.each do |x| x 
       return x 
       binding.pry
       puts "#{name}"
