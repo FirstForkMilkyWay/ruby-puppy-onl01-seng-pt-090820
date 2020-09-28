@@ -21,6 +21,7 @@ class Dog
   
   def self.print_all 
     @@all.collect { |dog| dog.name } 
+    @@all
   end 
   
   def self.clear_all 
