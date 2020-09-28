@@ -17,12 +17,12 @@ class Dog
   
   def self.all 
     @@all
+    binding.pry 
   end 
   
   def self.print_all 
     @@all.each do |x|
       puts "#{x}"
-      binding.pry 
     end 
   end 
   
