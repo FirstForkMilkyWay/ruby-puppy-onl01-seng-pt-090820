@@ -21,6 +21,7 @@ class Dog
   
   def self.print_all 
     @@all.each do |x|
+      return x 
       binding.pry
       puts "#{name}"
     end 
